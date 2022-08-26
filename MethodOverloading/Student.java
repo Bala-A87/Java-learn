@@ -1,4 +1,4 @@
-package MethodOverloading;
+//package MethodOverloading;
 
 public class Student implements Comparable<Student>{
     //We must implement comparison this way
@@ -16,6 +16,7 @@ public class Student implements Comparable<Student>{
 
     public String toString() //Called by default when an object is expected to behave as a string
     {
+        System.out.println("toString called");
         return name;
     }
     

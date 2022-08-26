@@ -14,8 +14,8 @@ public class SetList {
         intset.add(7);
         intset.add(1);
         intset.add(7);
-        intset.add(-3);
         intset.add(3);
+        intset.add(-3);
         intset.add(11);
         //Notice that it is loosely ordered - based on absolute value
         System.out.println(intset);
@@ -94,6 +94,7 @@ public class SetList {
         llist.add(2);
         llist.add(6);
         llist.add(7);
+        System.out.println(llist.get(3) + "\n");
         System.out.println(llist.subList(2, 5) + "\n");
     }
 }
